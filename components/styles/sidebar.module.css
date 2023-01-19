@@ -1,0 +1,69 @@
+.appSidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.sidebarTopButton {
+  background: none;
+  border: none;
+  color: #08c;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebarButton {
+  background: none;
+  border: 1px solid #000;
+  color: #08c;
+  margin: 0;
+  padding-right: 10px;
+  margin-right: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.appSidebarHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.appSidebarHeader h1 {
+  margin: 0;
+}
+
+.appSidebarNotes {
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
+}
+
+.appSidebarNote {
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.appSidebarNote p {
+  margin: 10px 0;
+}
+
+.appSidebarNote small {
+  color: #999;
+}
+
+.appSidebarNote:hover {
+  background-color: #dcd4d4;
+}
+
+.appSidebarNote.active {
+  background-color: #dcd4d4;
+}
+
+.sidebarNoteTitle {
+  display: flex;
+  justify-content: space-between;
+}

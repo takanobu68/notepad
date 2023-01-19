@@ -1,0 +1,34 @@
+.appMain {
+  width: 70%;
+  height: 100vh;
+}
+
+.appMainNotePreview {
+  border-top: 1px solid #ddd;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.04);
+  margin-top: 0;
+}
+
+.previewTitle {
+  padding: 25px;
+  margin: 0;
+  border: 2px solid rgba(0, 0, 0, 0.285);
+  height: 5vh;
+}
+
+.markdownPreview {
+  padding: 25px;
+  line-height: 2rem;
+  border: 1px solid #000;
+  height: 70vh;
+}
+
+.noActiveNote {
+  width: 70%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  color: #999;
+}
